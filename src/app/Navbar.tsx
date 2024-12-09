@@ -1,5 +1,7 @@
 import Image from "next/image"
 import { Search, Heart, ShoppingBag } from "lucide-react";
+import airjordan from "../../public/airjordan.png"
+import nike from "../../public/nike.jpg"
 export default function Navbar() {
     return(
         <div className="bg-white">
@@ -7,7 +9,7 @@ export default function Navbar() {
             <div className="bg-[#F5F5F5]">
                 <div className="flex justify-between w-[95%] m-auto h-9 items-center">
                     <div>
-                        <Image src={require("../../public/airjordan.png")} alt="airJordan-logo" height={17.97} width={19.2}/>
+                        <Image src={airjordan} alt="airJordan-logo" height={17.97} width={19.2}/>
                     </div>
                     <ol className="flex gap-2  roboto text-xs font-[500]">
                         <li>Find a Store |</li>
@@ -20,7 +22,7 @@ export default function Navbar() {
             <div className=" w-[95%] m-auto h-16">
                 <div className="flex justify-between items-center">
                     <div>
-                        <Image src={require("../../public/nike.jpg")} alt="nike-logo" width={58.47} height={78.47} />
+                        <Image src={nike} alt="nike-logo" width={58.47} height={78.47} />
                     </div>
                     <ol className="flex gap-6 items-center roboto text-base font-[500]">
                         <li>New & Featured</li>

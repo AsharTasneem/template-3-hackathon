@@ -1,4 +1,5 @@
 import Image from "next/image";
+import runner from "../../public/runner.jpg"
 export default function HeroSection() {
     return (
       <section className=" w-[95%] m-auto roboto my-18   ">
@@ -9,7 +10,7 @@ export default function HeroSection() {
   
         {/* Hero Image */}
         <div className="">
-            <Image src={require("../../public/runner.jpg")} alt="Running-outdoors" height={700} width={1344}/>
+            <Image src={runner} alt="Running-outdoors" height={700} width={1344}/>
             {/* // className="w-full h-full object-cover */}
         </div>
   

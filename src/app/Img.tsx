@@ -1,4 +1,5 @@
 import Image from "next/image"
+import shoes from "../../public/shoes.png"
 
 export default function Img() {
     return(
@@ -10,7 +11,7 @@ export default function Img() {
                 </div>
             </div>
             <div className="w-[95%] m-auto mb-14">
-                <Image src={require("../../public/shoes.png")} alt="air-max-shoes" height={700}/>
+                <Image src={shoes} alt="air-max-shoes" height={700}/>
             </div>
 
         </div>
